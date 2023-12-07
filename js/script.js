@@ -9,10 +9,10 @@ createTitle({
     },    
     methods: {
         changeColor() {
-            if(this.myClass === "red") {
-                this.myClass = "blu";
+            if(this.myClass === "lightblue") {
+                this.myClass = "lightgreen";
             } else {
-                this.myClass = "red";
+                this.myClass = "lightblue";
             }
         },
     }

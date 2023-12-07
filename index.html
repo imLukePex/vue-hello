@@ -12,7 +12,11 @@
 <body>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-    <h1 id="title" v-model="bigTitle" :class="myClass"></h1>
+    <div id="title">
+        <h1 :class="myClass"></h1>
+    </div>
+
+    <button @click="changeColor">Cambia Colore</button>
     
     <script type="text/javascript" src="js/script.js"></script>
 
