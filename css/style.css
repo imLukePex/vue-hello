@@ -12,16 +12,23 @@
 }
 
 /* Stili Main */
+#title {
+    text-align: center;
+}
+
 .lightblue {
     color: lightblue;
-    text-align: center;
     font-size: 40px;
     margin-top: 50px;
 }
 
 .lightgreen {
     color: lightgreen;
-    text-align: center;
     font-size: 40px;
     margin-top: 50px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-top: 20px;
 }

@@ -1,9 +1,9 @@
-const { createTitle } = Vue;
+const { createApp } = Vue;
 
-createTitle({
+createApp({
     data() {
         return {
-            bigTitle: "Questa è una prova!",
+            bigTitle: "Hello VueJS!!!",
             myClass: "lightblue"
         }
     },    

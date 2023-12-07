@@ -13,10 +13,11 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <div id="title">
-        <h1 :class="myClass"></h1>
+        <h1 :class="myClass">{{bigTitle}}</h1>
+        
+        <button @click="changeColor">Cambia Colore</button>
     </div>
 
-    <button @click="changeColor">Cambia Colore</button>
     
     <script type="text/javascript" src="js/script.js"></script>
 
