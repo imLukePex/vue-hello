@@ -4,7 +4,8 @@ createApp({
     data() {
         return {
             bigTitle: "Hello VueJS!!!",
-            myClass: "lightblue"
+            myClass: "lightblue",
+            image: "https://ositcom.com/static/images/images/HIMBVvhNz2kLVA8q1Ov2K5QCX4aCW9cDLgMJ1XST.png"
         }
     },    
     methods: {
